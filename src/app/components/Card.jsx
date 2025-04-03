@@ -11,4 +11,8 @@ const Card = ({ title, description}) => {
     )
 }
 
+// Usage:
+// <Card title='Card 1' description='Comp 1 description' />
+// <Card title='Card 2' description='Comp 2 description' />
+
 export default Card 
