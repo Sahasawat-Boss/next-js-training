@@ -1,8 +1,16 @@
-import React from 'react'
-
 const Post = () => {
     return (
-        <div>Posts Page</div>
+        <main className="p-4 w-screen h-screen bg-gray-100">
+            <div>
+                <h1 className='text-xl'>Post Page</h1>
+                <br />
+                <p>Post ipsum dolor sit amet consectetur, adipisicing elit. Laudantium ratione iure eaque iusto cumque quisquam. In numquam repellat nostrum placeat?</p>
+                <br />
+                <p>Post ipsum dolor sit amet consectetur, adipisicing elit. Laudantium ratione iure eaque iusto cumque quisquam. In numquam repellat nostrum placeat?</p>
+                <br />
+                <p>Post ipsum dolor sit amet consectetur, adipisicing elit. Laudantium ratione iure eaque iusto cumque quisquam. In numquam repellat nostrum placeat?</p>
+            </div>
+        </main>
     )
 }
 
