@@ -28,7 +28,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/components/Nav.jsx"  ],
+, "src/components/Nav.jsx", "md/NextDoc/FetchDatatoTable.jsx", "md/NextDoc/FetchData.jsx", "src/app/pages/blog/page.jsx"  ],
   "exclude": [
     "node_modules"
   ]

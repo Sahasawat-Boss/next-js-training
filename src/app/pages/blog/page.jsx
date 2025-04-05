@@ -6,8 +6,6 @@ export default async function Page() {
     return (
         <div className="p-4">
             <h1 className="text-xl font-bold mb-4">Blog Posts</h1>
-
-            {/* Table */}
             <table className="w-full border border-gray-300 text-left">
                 <thead className="bg-gray-100">
                     <tr>
