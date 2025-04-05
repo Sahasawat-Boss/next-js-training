@@ -1,6 +1,6 @@
 const Post = () => {
     return (
-        <main className="p-4 w-screen h-screen bg-gray-100">
+        <main className="p-4 w-screen h-screen">
             <div>
                 <h1 className='text-xl'>Post Page</h1>
                 <br />
