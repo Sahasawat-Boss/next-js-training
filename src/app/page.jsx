@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 const Home = () => {
   return (
@@ -10,19 +11,21 @@ const Home = () => {
           <p>From concept to code, we transform your vision into engaging, responsive, and powerful web solutions.</p>
 
           <section className="flex justify-start gap-2 mt-4">
-            <button className="btn-white">
+            <Link href={'/pages/about'} className="btn-white">
               About -{">"}
-            </button>
-            <button className="btn">
-              learn more -{">"}
-            </button>
+            </Link>
+            <Link href={'/pages/post'} className="btn">
+              Post -{">"}
+            </Link>
           </section>
 
-          <section className="rounded-lg px-10 mt-4">
-            <Image src={'/images/hero-image.webp'} alt="hero-image.webp" width='700' height='700' />
-          </section>
+          <figure className="rounded-lg px-10 mt-4">
+            <Image src={'/images/hero-image.webp'} alt="hero-image.webp" width='700' height='700' className="w-full h-full object-cover"
+              priority />
+          </figure>
         </div>
-      </div>    </main>
+      </div>
+    </main>
   )
 }
 

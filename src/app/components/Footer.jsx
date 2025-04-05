@@ -5,7 +5,7 @@ const Footer = () => {
         <main>
             <div className='flex flex-col items-center justify-center gap-4 bg-black/80 text-white p-4'>
                 <div>
-                    Footer
+                <Link href={'/'} className="hover:underline hover:text-blue-400">Graphio Clone</Link>
                 </div>
                 <ul className='flex gap-4'>
                     <Link href={'/'} className="hover:underline hover:text-blue-400">home</Link>
