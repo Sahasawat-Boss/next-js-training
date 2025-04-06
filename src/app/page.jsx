@@ -10,8 +10,13 @@ const HomePage = () => {
           <p>From concept to code, we transform your vision into engaging, responsive, and powerful web solutions.</p>
         </div>
 
-        <section className="mt-4 flex">
-          <Link href={'/pages/about'} className="bg-white text-black border p-2 px-4 rounded-full">About</Link>
+        <section className="flex gap-2">
+          <div className="mt-4 flex">
+            <Link href={'/pages/about'} className="bg-white text-black border py-1 px-4 rounded-full">About</Link>
+          </div>
+          <div className="mt-4 flex">
+            <Link href={'/pages/blog'} className="border py-1 px-4 rounded-full">Blog</Link>
+          </div>
         </section>
 
         <figure className='mt-4'>
